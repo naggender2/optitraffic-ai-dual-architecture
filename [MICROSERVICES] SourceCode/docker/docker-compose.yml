@@ -114,8 +114,8 @@ services:
       - "5003"
     environment:
       - ENCRYPTION_KEY=hSDYYflLm3HeCQvS2L1FfVVjOqfV8bSCltb9Y4IbL2o=
-      - GMAIL_USER=optitrafficai@gmail.com
-      - GMAIL_PASSWORD=xdxw bhnr wfsd tlrz
+      - GMAIL_USER= Your Gmail here    // change this
+      - GMAIL_PASSWORD= Your Gmail Password // change this
     depends_on:
       kafka:
         condition: service_healthy
